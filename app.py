@@ -120,8 +120,8 @@ def get_ai_recommendations(
     ]
 
 
-st.set_page_config(page_title="AI 맛집 추천 서비스")
-st.title("AI 맛집 추천 서비스")
+st.set_page_config(page_title="AI 맛집 큐레이터")
+st.title("AI 맛집 큐레이터")
 
 if "restaurants" not in st.session_state:
     st.session_state.restaurants = []
